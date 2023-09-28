@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".InventoryActivity">
+
+    <TextView
+        android:id="@+id/datainsertion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Item"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name: ex. Honeycrisp Apple"
+        android:padding="16dp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price: ex. 3.99$ or $3.99"
+        android:padding="16dp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Description: ex. brand, colour, size"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal">>
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:text="Logout" />
+
+        <Button
+            android:id="@+id/check_inventory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Inventory" />
+
+        <Button
+            android:id="@+id/ordersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="Orders" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

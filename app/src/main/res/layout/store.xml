@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    tools:context=".StoreList">
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Logout" />
+
+    <!-- View Cart Button -->
+    <Button
+        android:id="@+id/viewCartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Cart"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- Orders Button -->
+    <Button
+        android:id="@+id/ordersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:text="Orders" />
+
+    <TextView
+        android:id="@+id/storeNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoutButton"
+        android:ems="10"
+        android:inputType="text"
+        android:text="All Available Stores"
+        android:textAlignment="center"
+        android:textSize="32dp" />
+
+    <!--RecyclerView-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/storeRecycler"
+        android:layout_below="@id/storeNameText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

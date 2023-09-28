@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!--TextView for displaying Name -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@color/white"
+        android:baselineAligned="false"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <!--RelativeLayout orientation horizontal -->
+        <RelativeLayout
+            android:layout_width="405dp"
+            android:layout_height="93dp"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/storeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                tools:text="Store Name" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/itemButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="10dp"
+            android:text="View Items" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
