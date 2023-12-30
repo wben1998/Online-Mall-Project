@@ -1,5 +1,5 @@
 # Online-Mall-Project
-To run this project, you can download this repossitory as a .zip and use Android Studio to build it.
+To run this project, you can download this repository as a .zip and use Android Studio to build it.
 
 # Contributors
 1. [William Choi](https://github.com/puddingdawg)
