@@ -7,3 +7,5 @@ To run this project, you can download this repository as a .zip and use Android 
 3. [Ethan Llamoso](https://github.com/CloudYoshi)
 4. [Ben Wang](https://github.com/wben1998)
 5. [Michelle Zhu](https://github.com/mjsflames)
+
+# Screen Shots of Project
