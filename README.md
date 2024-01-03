@@ -10,9 +10,11 @@ To run this project, you can download this repository as a .zip and use Android 
 
 # Screenshots of Project
 Login Page:
+
 ![image](https://github.com/wben1998/Online-Mall-Project/assets/133912131/220e9e0a-e041-4014-8445-38a2f0dbf9a0)
 
 Registration Page:
+
 ![image](https://github.com/wben1998/Online-Mall-Project/assets/133912131/ba38c62d-0e04-4150-8a61-57518904984e)
 
 
