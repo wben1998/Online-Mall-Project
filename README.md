@@ -15,6 +15,7 @@ Login Page:
 
 Registration Page:
 
-![image](https://github.com/wben1998/Online-Mall-Project/assets/133912131/ba38c62d-0e04-4150-8a61-57518904984e)
+![Screenshot 2024-01-02 211227](https://github.com/wben1998/Online-Mall-Project/assets/133912131/b7acfcd4-177e-4532-b4ac-2af647621447)
+
 
 
